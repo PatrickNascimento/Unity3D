@@ -1,0 +1,2136 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.31f1 (3409e2af086f) revision 3410402'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 16329 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\2021.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/patri/Sample
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59526
+Successfully changed project path to: C:/Users/patri/Sample
+C:/Users/patri/Sample
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10380] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 3479518516 [EditorId] 3479518516 [Version] 1048832 [Id] WindowsEditor(7,Unknown) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10380] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 3479518516 [EditorId] 3479518516 [Version] 1048832 [Id] WindowsEditor(7,Unknown) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 86.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.31f1 (3409e2af086f)
+[Subsystems] Discovering subsystems at path G:/Unity/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/patri/Sample/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     4047 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'G:/Unity/2021.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/2021.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/Unity/2021.3.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/Unity/2021.3.31f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: G:/Unity/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004051 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 768 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1536ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1341ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (1128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (876ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.666 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1667ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1383ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (882ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (615ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3810 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (46.7 KB). Loaded Objects now: 4270.
+Memory consumption went from 149.3 MB to 149.3 MB.
+Total: 6.837600 ms (FindLiveObjects: 0.530900 ms CreateObjectMapping: 0.548100 ms MarkObjects: 5.584500 ms  DeleteObjects: 0.172200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1087ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (693ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (541ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3798 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4273.
+Memory consumption went from 148.1 MB to 148.1 MB.
+Total: 3.114900 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.304700 ms MarkObjects: 2.468900 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 618096.145146 seconds.
+  path: Assets/Sample.cs
+  artifactKey: Guid(37fdc2f3116c62745b5b93cb5c0828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sample.cs using Guid(37fdc2f3116c62745b5b93cb5c0828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a3cd07065a02bc4ab7d7d68b053d55') in 0.045820 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1645.791376 seconds.
+  path: Assets/Sprites/Houses_props.png
+  artifactKey: Guid(32281fd0269ea924dbfdbfe2c2ecabe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Houses_props.png using Guid(32281fd0269ea924dbfdbfe2c2ecabe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a70707c74dd6fc1eb210fa28814889e') in 0.118797 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_BUILDINGS_V0.01.png
+  artifactKey: Guid(db55cddae3c38e242ac4826a2df9c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_BUILDINGS_V0.01.png using Guid(db55cddae3c38e242ac4826a2df9c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60b467a75ee1e031988b214a5916612') in 0.044124 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 583.992469 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_1.asset
+  artifactKey: Guid(c6021dcf78c3965438f448f16d6c2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_1.asset using Guid(c6021dcf78c3965438f448f16d6c2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7e27a6af70c7b69f2cb63fc95a9c40') in 0.057410 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_16.asset
+  artifactKey: Guid(5bd9fbaec7e63f646a782a507fb5e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_16.asset using Guid(5bd9fbaec7e63f646a782a507fb5e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5193832befaddf89579671c8f2b294b1') in 0.016579 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_11.asset
+  artifactKey: Guid(fa7917f0105d2ef4a9e9edf66c76a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_11.asset using Guid(fa7917f0105d2ef4a9e9edf66c76a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d11c93d7ad1a7208a9c30e8af6fba4') in 0.017850 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_39.asset
+  artifactKey: Guid(2c811defcb60d2d448c5156cbea17ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_39.asset using Guid(2c811defcb60d2d448c5156cbea17ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23d132edad81a7ab4808145eea7a2b') in 0.014769 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_26.asset
+  artifactKey: Guid(3ac0028003d6c25449c303ff6c740807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_26.asset using Guid(3ac0028003d6c25449c303ff6c740807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7e915f7e25e51a1d943bc5965f4333') in 0.020221 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_27.asset
+  artifactKey: Guid(021cac378fd38d2409dbd4ecde915e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_27.asset using Guid(021cac378fd38d2409dbd4ecde915e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c51bbbfb71dc41453f1b58f3f3d831') in 0.020021 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_14.asset
+  artifactKey: Guid(3061e02c8d09e1c4d9afd663e6894cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_14.asset using Guid(3061e02c8d09e1c4d9afd663e6894cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56299c76b8b75e0e4cbe74069c4e6bf') in 0.016317 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_35.asset
+  artifactKey: Guid(3ecf7c699afcc214db5079a0ec466b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_35.asset using Guid(3ecf7c699afcc214db5079a0ec466b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3290a7f187cb8945eba6b26944182cc2') in 0.014215 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_38.asset
+  artifactKey: Guid(0f9c2a5665ee1b1438a5a459fc4cdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_38.asset using Guid(0f9c2a5665ee1b1438a5a459fc4cdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e202f09b76c42f99fee9678037bece6') in 0.013354 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_25.asset
+  artifactKey: Guid(65433c48c8f44704880d5f7eaac4f173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_25.asset using Guid(65433c48c8f44704880d5f7eaac4f173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20579e55e9322d8712458ce88c60981') in 0.016058 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_17.asset
+  artifactKey: Guid(513aaed17da0514489f86608622b12f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_17.asset using Guid(513aaed17da0514489f86608622b12f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b94d6f74bbe78f73b4ab02507598c5d') in 0.013635 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_12.asset
+  artifactKey: Guid(23e92756b38daee4fbadee122267cc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_12.asset using Guid(23e92756b38daee4fbadee122267cc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7026b1fa7225c33ccedd2599af36b93') in 0.011092 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_9.asset
+  artifactKey: Guid(34c020c0e4bbd7c44a78a6abed6fc7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_9.asset using Guid(34c020c0e4bbd7c44a78a6abed6fc7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eeeb322767e727bf453f0e7cd20907') in 0.013484 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_13.asset
+  artifactKey: Guid(6a5ef0a30678b69458856dfb98363f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_13.asset using Guid(6a5ef0a30678b69458856dfb98363f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27955ba7a049c1697aedd31b30615df0') in 0.011028 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_15.asset
+  artifactKey: Guid(94d309199f9c8734eb87e246f3b8157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_15.asset using Guid(94d309199f9c8734eb87e246f3b8157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab5a8ded7eb38711e45f5e3a5a8675f') in 0.012688 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_2.asset
+  artifactKey: Guid(4478325c868ba5f4b961b6761b9a6f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_2.asset using Guid(4478325c868ba5f4b961b6761b9a6f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008e03bdea4d6f7733b88d80fd8d9482') in 0.013108 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_20.asset
+  artifactKey: Guid(d02852e7f72506d4fbfeb6be4b9be861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_20.asset using Guid(d02852e7f72506d4fbfeb6be4b9be861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1533959faabe9599571a19cf2f6a9be') in 0.011950 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_23.asset
+  artifactKey: Guid(19716bb98ffb9ab41904412af246751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_23.asset using Guid(19716bb98ffb9ab41904412af246751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7fdd50b86894deeca5c72bafdaf4c4') in 0.016841 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_45.asset
+  artifactKey: Guid(c308f53a56f69274d9fad073f35e9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_45.asset using Guid(c308f53a56f69274d9fad073f35e9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b771f00c56a0a285a5a793833ef5781f') in 0.014707 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_29.asset
+  artifactKey: Guid(cb3032daa9f881d4da64806f18fcc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_29.asset using Guid(cb3032daa9f881d4da64806f18fcc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a726ee55b3b02844220be22ba7645ae3') in 0.013610 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_47.asset
+  artifactKey: Guid(0c99357abb2bf32428dffb587a01a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_47.asset using Guid(0c99357abb2bf32428dffb587a01a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf5032d1174844b125a61d51a5da4be') in 0.011536 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_31.asset
+  artifactKey: Guid(db9a951ec222e5f45a101886024a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_31.asset using Guid(db9a951ec222e5f45a101886024a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3ab3a51fd5fd2ef7aca56cac20fa48') in 0.011383 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_18.asset
+  artifactKey: Guid(37d62a4cf0a0441459b12c0c71e3ffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_18.asset using Guid(37d62a4cf0a0441459b12c0c71e3ffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fecb3e6c7bf1f9243b2cbd2629f5c12') in 0.012127 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_19.asset
+  artifactKey: Guid(94b9fc08e8e3a644dade9b6a5e711c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_19.asset using Guid(94b9fc08e8e3a644dade9b6a5e711c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98d38dde8c870158c4a89cdc2d76326') in 0.013225 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 102.326821 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_49.asset
+  artifactKey: Guid(3af5a5f363c32574f8bc0629c0fe34fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_49.asset using Guid(3af5a5f363c32574f8bc0629c0fe34fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dee17c607a75d66ff72554c4d3fe22') in 0.015805 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_58.asset
+  artifactKey: Guid(48b6dbc098d3e584b907ee38d6442e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_58.asset using Guid(48b6dbc098d3e584b907ee38d6442e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d3b9730245736ffb0dcc0cfc7d25b9') in 0.011519 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_55.asset
+  artifactKey: Guid(97143c12ac662134095526053b991997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_55.asset using Guid(97143c12ac662134095526053b991997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850fe68151a1647bdf06bfb815886687') in 0.009473 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_56.asset
+  artifactKey: Guid(5e01580e79cc047479eee978e38433c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_56.asset using Guid(5e01580e79cc047479eee978e38433c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987f2fe79cf0e6c21d7624e4f0494c65') in 0.012330 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_68.asset
+  artifactKey: Guid(e512b9cf07c44144bb3a6e333fe75f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_68.asset using Guid(e512b9cf07c44144bb3a6e333fe75f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34369a2effa7498ca15317f0ae7472b') in 0.011990 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_66.asset
+  artifactKey: Guid(7bf3976559e5f4348906df8cc3de8c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_66.asset using Guid(7bf3976559e5f4348906df8cc3de8c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78e1b00b2fcaf87728427fb94ae1a45') in 0.011420 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_53.asset
+  artifactKey: Guid(8c5e7c803855d954ab4668d6604601fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_53.asset using Guid(8c5e7c803855d954ab4668d6604601fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af769aa5851a8058a77650c73d192449') in 0.011928 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_71.asset
+  artifactKey: Guid(90ca2bd264b5a2a4f91979ece0b638e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_71.asset using Guid(90ca2bd264b5a2a4f91979ece0b638e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa77fed045d862171e3b4db95f85188d') in 0.014593 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_54.asset
+  artifactKey: Guid(b3d49ed585bd1504580eb9ca96c8a752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_54.asset using Guid(b3d49ed585bd1504580eb9ca96c8a752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c0f16c60431511e14da584931d4e5b') in 0.011092 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_63.asset
+  artifactKey: Guid(b973895ee90e59b4688cca68fc55be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_63.asset using Guid(b973895ee90e59b4688cca68fc55be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e121b5ae0ebc978ce58ecd74856cbe6') in 0.012055 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_52.asset
+  artifactKey: Guid(e1547f7e91a36ef4d8f264d078929b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_52.asset using Guid(e1547f7e91a36ef4d8f264d078929b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a27cb29dcee0d2fbced63835db9828') in 0.011714 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_57.asset
+  artifactKey: Guid(f81cf80333aa7a1429dec4c10aa6ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_57.asset using Guid(f81cf80333aa7a1429dec4c10aa6ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b96c4b2030a58612c920f5b9adcfb5f') in 0.011499 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.230591 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_73.asset
+  artifactKey: Guid(bb4d55c8b285ab44c97cdcdee84f0e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_73.asset using Guid(bb4d55c8b285ab44c97cdcdee84f0e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2201160ddaa76e09caf055bd0d86de') in 0.013615 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_82.asset
+  artifactKey: Guid(7197cba671aea4548800bbe9586cf072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_82.asset using Guid(7197cba671aea4548800bbe9586cf072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce06c92f494b95b5b66a15a5de495ab') in 0.012303 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_75.asset
+  artifactKey: Guid(eb5513d826605624f90215c8953dd0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_75.asset using Guid(eb5513d826605624f90215c8953dd0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcb0accb5c216b8dc91df29e39f5107') in 0.012790 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_74.asset
+  artifactKey: Guid(c5d2ef5b0ca76e943bf3c023abc54faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_74.asset using Guid(c5d2ef5b0ca76e943bf3c023abc54faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3549d3e39e521b1dd548e69c4070b998') in 0.012694 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_95.asset
+  artifactKey: Guid(b362d01cf52fdf24db316b2fa9ca7e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_95.asset using Guid(b362d01cf52fdf24db316b2fa9ca7e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5034879267aedad8a3f12aa3fafcdb') in 0.011990 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_91.asset
+  artifactKey: Guid(3815bb56dffb72441b618b88c9a289d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_91.asset using Guid(3815bb56dffb72441b618b88c9a289d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7216c400ee211617adceb04f7c28d1d7') in 0.012243 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_100.asset
+  artifactKey: Guid(00b7b1e31939ac04c8957bb5440d2a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_100.asset using Guid(00b7b1e31939ac04c8957bb5440d2a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae05cf9724ab773181eba5d84cd2acc5') in 0.011291 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_93.asset
+  artifactKey: Guid(9c4070f322cafa14e9b57a54a5d291d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_93.asset using Guid(9c4070f322cafa14e9b57a54a5d291d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2be8a8b9df038801b4f47e39ff08846') in 0.012969 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_96.asset
+  artifactKey: Guid(4ee33ecd895bb8b44a24ad7dfc2c7997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_96.asset using Guid(4ee33ecd895bb8b44a24ad7dfc2c7997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e9db2a7b2fbd916b9db514471d9aaf') in 0.012697 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_85.asset
+  artifactKey: Guid(63cfe339d99dfb44ca9b69a5f21d5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_85.asset using Guid(63cfe339d99dfb44ca9b69a5f21d5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49f98a53caa418bf1ec4a4ef11ccf04') in 0.011425 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_97.asset
+  artifactKey: Guid(c8a59f95f0eda334ea09b801021ac539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_97.asset using Guid(c8a59f95f0eda334ea09b801021ac539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3b64bb8cfe19bfd4463150c80fd397') in 0.012391 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_104.asset
+  artifactKey: Guid(9b661eb4ac84d2547a96815575b6ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_104.asset using Guid(9b661eb4ac84d2547a96815575b6ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2d3d01c8b1c9209bc23e7b796efb2a') in 0.012544 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_79.asset
+  artifactKey: Guid(d195d1259fd6d034b8fa0471d9159400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_79.asset using Guid(d195d1259fd6d034b8fa0471d9159400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5017351b02c49179a5c01dec4cd29f6a') in 0.011413 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_76.asset
+  artifactKey: Guid(174dfbbc3a5897043881e145157bdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_76.asset using Guid(174dfbbc3a5897043881e145157bdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79707501ad55e1a511e70e1c74435b75') in 0.012083 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_99.asset
+  artifactKey: Guid(9ff8d100899665343b799e880c1bb9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_99.asset using Guid(9ff8d100899665343b799e880c1bb9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e421f5ecf13ccadd5b152e64e2b39') in 0.012301 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_107.asset
+  artifactKey: Guid(d9a5dda7b5909a9429f20f9bafc6ff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_107.asset using Guid(d9a5dda7b5909a9429f20f9bafc6ff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405f5d3cffa7e5b1295ba9336952f7ee') in 0.011311 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_94.asset
+  artifactKey: Guid(d89e5c3d2278c9748b396cfec9f5f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_94.asset using Guid(d89e5c3d2278c9748b396cfec9f5f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c791fb194e93a0e79eb17840325ebcbe') in 0.012265 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_90.asset
+  artifactKey: Guid(0fbb0be8db219974b8274a11221d22a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_90.asset using Guid(0fbb0be8db219974b8274a11221d22a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914b8a24c8e5326205e9971ad41b97f3') in 0.011611 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.586176 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_109.asset
+  artifactKey: Guid(4615acea30f4f2e4d851774c191874cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_109.asset using Guid(4615acea30f4f2e4d851774c191874cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65821cdffad65541f1ce0c1e6dbad6c') in 0.011740 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_111.asset
+  artifactKey: Guid(6b10d70f2dc3dee4f8676090ac89a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_111.asset using Guid(6b10d70f2dc3dee4f8676090ac89a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad937e89f1a84b388e7bf987ab7909ea') in 0.011669 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_114.asset
+  artifactKey: Guid(895532927ec696c4cbce1240467827f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_114.asset using Guid(895532927ec696c4cbce1240467827f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec95cc580e604e51a0506542734cce0') in 0.011150 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_129.asset
+  artifactKey: Guid(09365c68255ffb945ba31c124ac8cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_129.asset using Guid(09365c68255ffb945ba31c124ac8cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60235d1cf94d3dfdaad52c88c0ee71e') in 0.010901 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_121.asset
+  artifactKey: Guid(91ca688514f47fb4296244504ca67bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_121.asset using Guid(91ca688514f47fb4296244504ca67bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9eaca7e1f38a8bdb1c4ab458713592') in 0.012693 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_126.asset
+  artifactKey: Guid(8d1e4326901ba094d91d2269feab06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_126.asset using Guid(8d1e4326901ba094d91d2269feab06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4031e4321b6cf7b77c79f6dde5ebf3c') in 0.009993 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_110.asset
+  artifactKey: Guid(02f2d62a486079047a0f58dfb308245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_110.asset using Guid(02f2d62a486079047a0f58dfb308245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68d3989ab2882065629bccb6fbfdd11') in 0.012730 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_139.asset
+  artifactKey: Guid(f8a87e18a0661524aadf7a723b078a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_139.asset using Guid(f8a87e18a0661524aadf7a723b078a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8e1983858213f8e9b6002891d5e929') in 0.011091 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_135.asset
+  artifactKey: Guid(bd10ecbea89565a428e3ce9608c425d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_135.asset using Guid(bd10ecbea89565a428e3ce9608c425d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b53951765c3c13ca4db49930090ab9') in 0.011801 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_150.asset
+  artifactKey: Guid(0782172d0f3bd4c459f6582b3989499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_150.asset using Guid(0782172d0f3bd4c459f6582b3989499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff97303bf7d98ea8c72241ba7306ba7') in 0.011813 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_144.asset
+  artifactKey: Guid(a7d828cec4fe1fb4ca5b7267e45331a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_144.asset using Guid(a7d828cec4fe1fb4ca5b7267e45331a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03468f08ce8a414d205c76b84e520ef4') in 0.014686 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_147.asset
+  artifactKey: Guid(ff1023f06f0642f4a8977c1f5537edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_147.asset using Guid(ff1023f06f0642f4a8977c1f5537edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9561fee7bba4b2c8d99eaad81404b80') in 0.011797 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_141.asset
+  artifactKey: Guid(e60fd69bcdf609f4f98610cfd62abfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_141.asset using Guid(e60fd69bcdf609f4f98610cfd62abfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bd356303fe2707eebabc449ed8ebc3') in 0.011615 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_120.asset
+  artifactKey: Guid(90637e8d65336ed4985fc4118b169bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_120.asset using Guid(90637e8d65336ed4985fc4118b169bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67dd0de3a2e41ee1453e80984334821') in 0.012033 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_116.asset
+  artifactKey: Guid(1d3ca62cd41fc224bbe355fe041f6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_116.asset using Guid(1d3ca62cd41fc224bbe355fe041f6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423e49da8f05217c4575709d627f8b6f') in 0.012431 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_131.asset
+  artifactKey: Guid(59dec65d40645f343b31d2350dd221cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_131.asset using Guid(59dec65d40645f343b31d2350dd221cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541b126dd345017991dc0f648da6f364') in 0.009795 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_148.asset
+  artifactKey: Guid(a0183a817fe6d1d439a69316a6acbade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_148.asset using Guid(a0183a817fe6d1d439a69316a6acbade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d1514ad3a591b39fcefa3ab78852a0') in 0.011554 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_123.asset
+  artifactKey: Guid(70bb593de43b4e64797edcfde520e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_123.asset using Guid(70bb593de43b4e64797edcfde520e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25892b21c65f695ac50456c13b46e33') in 0.011090 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_142.asset
+  artifactKey: Guid(b20d1056f1d2e7441ba3e24f633d20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_142.asset using Guid(b20d1056f1d2e7441ba3e24f633d20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ecad25a7b9ee8f26048f967c2daeb8') in 0.011126 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_140.asset
+  artifactKey: Guid(140fdd59bb397ec4a9c57ee4bf89997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_140.asset using Guid(140fdd59bb397ec4a9c57ee4bf89997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb5d24553d7f49bfa0ddc77cc5503d') in 0.011963 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_153.asset
+  artifactKey: Guid(2e2b2a7c86800ac47945ed5e64f7c036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_153.asset using Guid(2e2b2a7c86800ac47945ed5e64f7c036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ab39be1586db139cf43a19399aa0e') in 0.011596 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_133.asset
+  artifactKey: Guid(8ec5c6f8abce8e4439c18d8aaeeccbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_133.asset using Guid(8ec5c6f8abce8e4439c18d8aaeeccbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7097ec5758e1c778bd1d29508e430f1') in 0.011684 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_155.asset
+  artifactKey: Guid(063dbe5679db36e4b9c3e61d263adfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_155.asset using Guid(063dbe5679db36e4b9c3e61d263adfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2460e9bd5e8190f8586036c409e1ab') in 0.012371 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_128.asset
+  artifactKey: Guid(e7d61a67d3702e6458631017122b08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_128.asset using Guid(e7d61a67d3702e6458631017122b08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574649a65b2d36541a64299ade0ab6af') in 0.010645 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.609740 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_157.asset
+  artifactKey: Guid(d74f35dd83bf8224d863654fe3d63642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_157.asset using Guid(d74f35dd83bf8224d863654fe3d63642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6218721d26ff8cf43e7a4c28961282b8') in 0.011144 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_167.asset
+  artifactKey: Guid(7c5cd96cf99101841a2ef7b770a7f59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_167.asset using Guid(7c5cd96cf99101841a2ef7b770a7f59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e9ebf934ba19e097152e27044d3626') in 0.011978 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_163.asset
+  artifactKey: Guid(bb7894c99000d6844a8238aaa2cee7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_163.asset using Guid(bb7894c99000d6844a8238aaa2cee7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae6c194b9f285c3c533a667bc2c30e9') in 0.012125 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_168.asset
+  artifactKey: Guid(7ebca9ed31db6a8459434d1b31195897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_168.asset using Guid(7ebca9ed31db6a8459434d1b31195897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19582b1a891cff43998bea3ca150e982') in 0.011781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_181.asset
+  artifactKey: Guid(b21c69bb24fff5c458877e347870c575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_181.asset using Guid(b21c69bb24fff5c458877e347870c575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a97d8f76a77bf9bd04b86b926b5836a') in 0.012152 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_189.asset
+  artifactKey: Guid(c19576c5b1c452f43b69f3bbf2a35c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_189.asset using Guid(c19576c5b1c452f43b69f3bbf2a35c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b32680426e05cbbd3efce7a8d2e336') in 0.012893 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_174.asset
+  artifactKey: Guid(e571ce74eaaa79a479b38939a092a64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_174.asset using Guid(e571ce74eaaa79a479b38939a092a64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95d4d7c71aec20412832232f2e9d16e') in 0.012167 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_172.asset
+  artifactKey: Guid(e8150036a75d29f48adcfceedba66794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_172.asset using Guid(e8150036a75d29f48adcfceedba66794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b904a01117b55ead09fe3bea6965a6d1') in 0.012217 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_185.asset
+  artifactKey: Guid(1ff2bd05b0dcd754fb07e4f326f6a42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_185.asset using Guid(1ff2bd05b0dcd754fb07e4f326f6a42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51463039c651c9e7cf564b2b7898f25') in 0.012498 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_179.asset
+  artifactKey: Guid(01deebaec0223324d8a3ef1d6827f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_179.asset using Guid(01deebaec0223324d8a3ef1d6827f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcaf27a04377b65ad8d0f4091994a57') in 0.011487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_178.asset
+  artifactKey: Guid(ff46f2f469b4d884286a47fe48d30349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_178.asset using Guid(ff46f2f469b4d884286a47fe48d30349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fd94796485ae9135f4888897d2f99b') in 0.010682 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_165.asset
+  artifactKey: Guid(a57690dbb6049494ba21ae6fb48e146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_165.asset using Guid(a57690dbb6049494ba21ae6fb48e146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cb264ddc5713c89ddd011239755422') in 0.011858 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_183.asset
+  artifactKey: Guid(425820b72e07b2f4388badd9f093455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_183.asset using Guid(425820b72e07b2f4388badd9f093455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f793ff2e5e33bb35ab362a431a0eff7a') in 0.011662 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_160.asset
+  artifactKey: Guid(9c9c60b1dfb0c5d4688a8078463005cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_160.asset using Guid(9c9c60b1dfb0c5d4688a8078463005cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd01f32f3181eaa303f348e7e2801e1') in 0.011119 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_173.asset
+  artifactKey: Guid(3650639b144c0cf47be0774e78a80312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_173.asset using Guid(3650639b144c0cf47be0774e78a80312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754938235b5d16274532da43e1ec694d') in 0.012683 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_191.asset
+  artifactKey: Guid(cf5f2a4835d04e644bb521f5aafc1a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_191.asset using Guid(cf5f2a4835d04e644bb521f5aafc1a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b803c37a7b3aca81e6c89db82a29f811') in 0.011194 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_190.asset
+  artifactKey: Guid(bdf713039a4821a4eaf823ed9f7c332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_190.asset using Guid(bdf713039a4821a4eaf823ed9f7c332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd101da38524ebae492f5c3de714f557') in 0.013779 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_176.asset
+  artifactKey: Guid(b3498babf4bc20d4eb44299dd4399ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_176.asset using Guid(b3498babf4bc20d4eb44299dd4399ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e9b73fe98991daef1deca2b1775533') in 0.013513 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.084381 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_193.asset
+  artifactKey: Guid(48d4dd7c878138c4c8c875ba2fcd943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_193.asset using Guid(48d4dd7c878138c4c8c875ba2fcd943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4b42b687dfaeaa4cfbbec14cfe2530') in 0.012041 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_200.asset
+  artifactKey: Guid(94158515ff0322c4b83c3dd7c71dc78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_200.asset using Guid(94158515ff0322c4b83c3dd7c71dc78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e9e9fbcb9ab141550b3957a3706a4c') in 0.010007 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_214.asset
+  artifactKey: Guid(d49a2d39423e8084ca431554870c8c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_214.asset using Guid(d49a2d39423e8084ca431554870c8c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cac5f6d1a40b5970216adbb5eb5c6b') in 0.015487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_215.asset
+  artifactKey: Guid(169fef0200d0132408f35b43682fa531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_215.asset using Guid(169fef0200d0132408f35b43682fa531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864290b26280ee1d2bef90c908fbd9f0') in 0.011393 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_216.asset
+  artifactKey: Guid(c6afebef278127a408c9ca1517ffb8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_216.asset using Guid(c6afebef278127a408c9ca1517ffb8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd696b162a54ca30ab193d9b943533e7') in 0.014638 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_226.asset
+  artifactKey: Guid(7c9be72f1e9b834429c73f5ecc7a4e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_226.asset using Guid(7c9be72f1e9b834429c73f5ecc7a4e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9538d0df9bad33eb57631436f09dec0') in 0.011675 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_197.asset
+  artifactKey: Guid(4ca1cc89f192d5c42826dafe45727d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_197.asset using Guid(4ca1cc89f192d5c42826dafe45727d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e6d00d1a6735490b2fb47bcc66f8db') in 0.013413 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_218.asset
+  artifactKey: Guid(f880e467f30ba8545af913354efa11f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_218.asset using Guid(f880e467f30ba8545af913354efa11f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2d6e5af4e094a88547970b82470e94') in 0.011510 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_231.asset
+  artifactKey: Guid(7d0508cbfec70f84691ac173d46c3bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_231.asset using Guid(7d0508cbfec70f84691ac173d46c3bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cf8f48eb8571fbe079d100f1594a12') in 0.011168 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_227.asset
+  artifactKey: Guid(fa26d8a17f97ea94ebf8b279d76129d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_227.asset using Guid(fa26d8a17f97ea94ebf8b279d76129d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336b240cdd92561fc87556bbce732d79') in 0.013533 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_228.asset
+  artifactKey: Guid(e12af936759dd3c478fd68995ffa20ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_228.asset using Guid(e12af936759dd3c478fd68995ffa20ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051ba4a2676344e5fa991fff0de120ca') in 0.011721 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_211.asset
+  artifactKey: Guid(f98ae3af9951baf4fba61a2f3f0c72ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_211.asset using Guid(f98ae3af9951baf4fba61a2f3f0c72ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46e8ff3635999c29ff7c7b36b70572d') in 0.011595 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_229.asset
+  artifactKey: Guid(e287f35852595ab4f9863380107ab729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_229.asset using Guid(e287f35852595ab4f9863380107ab729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddbbcb04460d8f76bf18c3965c04af0') in 0.011885 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_224.asset
+  artifactKey: Guid(1a7bb3c029918cb45b9f24fdeb0a281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_224.asset using Guid(1a7bb3c029918cb45b9f24fdeb0a281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11e5a8d8bd0fd4ae872e511ec1bd25c') in 0.009826 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_207.asset
+  artifactKey: Guid(c15041fe9f7cce542b1f98220b88559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_207.asset using Guid(c15041fe9f7cce542b1f98220b88559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bd1c39659257a547b95b5b69c6901b') in 0.013271 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_204.asset
+  artifactKey: Guid(0bf9d76dfe5ad1845a14f25cd212c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_204.asset using Guid(0bf9d76dfe5ad1845a14f25cd212c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728b5ed0d22f2ae00220f49525a2793a') in 0.014041 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_238.asset
+  artifactKey: Guid(acacbe25fc9bd9c4cbba8d13bd704ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_238.asset using Guid(acacbe25fc9bd9c4cbba8d13bd704ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd9f1d898b3053a70024d9a0a3897f1') in 0.010230 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_202.asset
+  artifactKey: Guid(8f1576a803e4b3b49910facfc6f5b302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_202.asset using Guid(8f1576a803e4b3b49910facfc6f5b302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d830eb57f132444280aaeb2aec0c3ae') in 0.010707 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_222.asset
+  artifactKey: Guid(8bf2d937838e27e419c6cc9f0f0e8f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_222.asset using Guid(8bf2d937838e27e419c6cc9f0f0e8f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7497833b44d576ded8969d10fe8d87d') in 0.011551 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_217.asset
+  artifactKey: Guid(030e1a197cdcffb48a5404e967e5141a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_217.asset using Guid(030e1a197cdcffb48a5404e967e5141a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618dced732f4ff879a25092b107b5a39') in 0.010392 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_194.asset
+  artifactKey: Guid(4f65ee0b80429a34cbd88f52d2bf95ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_194.asset using Guid(4f65ee0b80429a34cbd88f52d2bf95ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f332ebc1a0017612d9a2fcc36a1830be') in 0.011127 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_230.asset
+  artifactKey: Guid(33af47cc1ee3aae46a95a08651af2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_230.asset using Guid(33af47cc1ee3aae46a95a08651af2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678a0d7bbd6718bd9d0239b126cfc35a') in 0.011491 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_233.asset
+  artifactKey: Guid(b2f789892f3b6194d905b133b1e2d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_233.asset using Guid(b2f789892f3b6194d905b133b1e2d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517ed9e3aeb9b66ccd40fb79f2fa0852') in 0.010456 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_223.asset
+  artifactKey: Guid(174f813ab4b4dd54dabce80d47e7558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_223.asset using Guid(174f813ab4b4dd54dabce80d47e7558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98371ae632eb012eb065feae67a98e48') in 0.010313 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 362.208225 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_241.asset
+  artifactKey: Guid(0e2ab95822f4a0843a026d74fcf4d2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_241.asset using Guid(0e2ab95822f4a0843a026d74fcf4d2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c777a2585aee25b77ca1995184f24066') in 0.015843 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_255.asset
+  artifactKey: Guid(5df1edd7a23d6444a84d04042bdf9d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_255.asset using Guid(5df1edd7a23d6444a84d04042bdf9d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b14d503bd2438d9284f84cfa61adc8') in 0.012298 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_248.asset
+  artifactKey: Guid(cb438dee1eabd8c4ea9dae533e7ed7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_248.asset using Guid(cb438dee1eabd8c4ea9dae533e7ed7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebbb5f0954360a600821eb095bdb3e2') in 0.014576 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_249.asset
+  artifactKey: Guid(f5e8f947b0c69794abf3396f81e91648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_249.asset using Guid(f5e8f947b0c69794abf3396f81e91648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3480c56b130cfd8b528986d70bd0e9c8') in 0.013998 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_306.asset
+  artifactKey: Guid(13a55b2ece51fb243af12920de04f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_306.asset using Guid(13a55b2ece51fb243af12920de04f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30dbfa0c4b1f486afc7ac4096b37554') in 0.013129 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_278.asset
+  artifactKey: Guid(f0b518e7dacd1d24b8faaa40b9b4e39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_278.asset using Guid(f0b518e7dacd1d24b8faaa40b9b4e39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50168ed0333375131b06004f583091d') in 0.015074 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_318.asset
+  artifactKey: Guid(55d8b4d9461f7234e95b575e2d8ef0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_318.asset using Guid(55d8b4d9461f7234e95b575e2d8ef0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f2a47649f5eb3e1679f48501f5a577') in 0.015766 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_339.asset
+  artifactKey: Guid(650a071f396fa464f8cd09b634928a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_339.asset using Guid(650a071f396fa464f8cd09b634928a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa693a693d8c47631e45b1f04146e80') in 0.017350 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_365.asset
+  artifactKey: Guid(21e0f6a57a6a0994ba87e68fc67c0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_365.asset using Guid(21e0f6a57a6a0994ba87e68fc67c0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c705a96682762fe95c1137d1921371b') in 0.014313 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_292.asset
+  artifactKey: Guid(d29bf1e0e31b99e448bb501edd6a7cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_292.asset using Guid(d29bf1e0e31b99e448bb501edd6a7cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fded221fee4beb8078d397d18472f87') in 0.013371 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_381.asset
+  artifactKey: Guid(73a9cd8ccb00b4a42a267d925c775527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_381.asset using Guid(73a9cd8ccb00b4a42a267d925c775527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90731ccb4da6c06ba7538f17c6c911e0') in 0.012483 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_382.asset
+  artifactKey: Guid(f4a2808586f0a204ca10d6eae537ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_382.asset using Guid(f4a2808586f0a204ca10d6eae537ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84f52289d515183bf89c4026a2246cd') in 0.018528 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_404.asset
+  artifactKey: Guid(52e9dae39e6da564cb85cba59579fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_404.asset using Guid(52e9dae39e6da564cb85cba59579fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5cae4a9484866a7aa08eb883850bb2') in 0.020050 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_348.asset
+  artifactKey: Guid(391dfed16d5607944bc62b4057862688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_348.asset using Guid(391dfed16d5607944bc62b4057862688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a4b6329c6628a54dc0618fa6e4952f') in 0.011947 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_282.asset
+  artifactKey: Guid(0273de6a4458a574c80fe277d6d0679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_282.asset using Guid(0273de6a4458a574c80fe277d6d0679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b95904b9a110ec9e51c5b14a1b6a3a') in 0.012462 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_406.asset
+  artifactKey: Guid(a7a8f9b0989e06a449931c341e1eaad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_406.asset using Guid(a7a8f9b0989e06a449931c341e1eaad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b960c25e15d416ab168f9512d106dd0') in 0.015936 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_285.asset
+  artifactKey: Guid(137c0d01869af5d428a83f67e10a22c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_285.asset using Guid(137c0d01869af5d428a83f67e10a22c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cf43c056efac77f90c29884aeff3bc') in 0.013183 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_322.asset
+  artifactKey: Guid(0bcae14ab7f82794cba04e028124f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_322.asset using Guid(0bcae14ab7f82794cba04e028124f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b850447c80e3b187cd7052a225d8e5fc') in 0.014179 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_387.asset
+  artifactKey: Guid(085cc348eefd90d4d9b50fef4f85cc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_387.asset using Guid(085cc348eefd90d4d9b50fef4f85cc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5441a4fb9f84a82658142711d30386a5') in 0.013400 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_243.asset
+  artifactKey: Guid(7901dbb88deaee141a28a5096eb26e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_243.asset using Guid(7901dbb88deaee141a28a5096eb26e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8a9dbdb0e3691218983a5896d4dc98') in 0.013444 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_300.asset
+  artifactKey: Guid(10b21278bc614b049b10ba9094f861c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_300.asset using Guid(10b21278bc614b049b10ba9094f861c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a43c8ff5ade839e448329a8e63c1bc8') in 0.013134 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_346.asset
+  artifactKey: Guid(b9a7dfc6e942f9840b9af47fed83dc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_346.asset using Guid(b9a7dfc6e942f9840b9af47fed83dc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611188c0ae2473544fee57c7d6778359') in 0.013651 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_265.asset
+  artifactKey: Guid(3eeb02e2f1884b54db31d516eb3badf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_265.asset using Guid(3eeb02e2f1884b54db31d516eb3badf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12373ecea2eeaa2bd4bd377bbca92d76') in 0.015825 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_264.asset
+  artifactKey: Guid(f5ab2acc918285c40a4c48b73009624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_264.asset using Guid(f5ab2acc918285c40a4c48b73009624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b07d6bfd7ea1df72ce33d9af824fe2') in 0.014006 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_281.asset
+  artifactKey: Guid(05295e2c833102448b3fc649bd38a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_281.asset using Guid(05295e2c833102448b3fc649bd38a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab2f626430b8c3c8ec05c0ac5bd7dd4') in 0.013052 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_375.asset
+  artifactKey: Guid(25f9b20fb452a1942a5402f45e672c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_375.asset using Guid(25f9b20fb452a1942a5402f45e672c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de41f34b70fcba52cc40dbbab3d530e') in 0.013882 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_311.asset
+  artifactKey: Guid(4cc867efe31d0ca4792a04f67767b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_311.asset using Guid(4cc867efe31d0ca4792a04f67767b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb65384f576d34f45be5286fe588a9b8') in 0.014004 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_400.asset
+  artifactKey: Guid(a41a4326f635ffd40b6375b535319a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_400.asset using Guid(a41a4326f635ffd40b6375b535319a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb77b2d13f91e0e8cedee4fe08b9f20') in 0.012077 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_380.asset
+  artifactKey: Guid(b6aef4dc8fb2a4a4b9bce4188b782661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_380.asset using Guid(b6aef4dc8fb2a4a4b9bce4188b782661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e958884cb5432f2b84cbd6b278cc4db2') in 0.012400 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_286.asset
+  artifactKey: Guid(b231703b25a709545b6eead5f91119e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_286.asset using Guid(b231703b25a709545b6eead5f91119e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb244b13192d25f6eeaf00eededbe9c') in 0.010882 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_332.asset
+  artifactKey: Guid(4eca5f54108784644884a551da9bbe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_332.asset using Guid(4eca5f54108784644884a551da9bbe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2607dc945a14f270a0612e7195d8af81') in 0.011781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_355.asset
+  artifactKey: Guid(dba98ba42b82d74478f77272fab53370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_355.asset using Guid(dba98ba42b82d74478f77272fab53370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c642718aadf5903c2ac6bcbfd768779a') in 0.012594 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_334.asset
+  artifactKey: Guid(5826a2b66121bf84ba2a52116dcff436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_334.asset using Guid(5826a2b66121bf84ba2a52116dcff436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135b66ea42ee0506a7d71c48c0b2fb29') in 0.011981 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_388.asset
+  artifactKey: Guid(e71ddc2886f588b489da56c063f3e7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_388.asset using Guid(e71ddc2886f588b489da56c063f3e7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f83f051a04adaefe7efa6cbbbda214e') in 0.012582 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_302.asset
+  artifactKey: Guid(061abc87c14abb346931e07951f92bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_302.asset using Guid(061abc87c14abb346931e07951f92bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0666462ebac40787d305eecd66003183') in 0.012854 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_373.asset
+  artifactKey: Guid(3cc584be89881f844b1f7be0c3c948ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_373.asset using Guid(3cc584be89881f844b1f7be0c3c948ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bfe29009cc6b5f7a6738629390dc56') in 0.012085 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_359.asset
+  artifactKey: Guid(61aa0e53fc7db1741af30beaaf51a8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_359.asset using Guid(61aa0e53fc7db1741af30beaaf51a8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd660df17368ffe0b98e1caca0815f3') in 0.011528 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_266.asset
+  artifactKey: Guid(070b24e6d64592446990b9b2f7816c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_266.asset using Guid(070b24e6d64592446990b9b2f7816c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb375c32519c36b8e15ce9df5d58d48') in 0.013416 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_294.asset
+  artifactKey: Guid(70d0793485a64ae4eb7f53cea405b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_294.asset using Guid(70d0793485a64ae4eb7f53cea405b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4f302cc12c10b6d482e01e9cede9f0') in 0.013943 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_313.asset
+  artifactKey: Guid(9838eec44047df346be83449e02ed2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_313.asset using Guid(9838eec44047df346be83449e02ed2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004f66e65bdb24b855321cf9ca58e989') in 0.014838 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_287.asset
+  artifactKey: Guid(3e852be9699149f4996faec87935ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_287.asset using Guid(3e852be9699149f4996faec87935ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e388da612be37d13ef9919555e0bf6') in 0.018855 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_337.asset
+  artifactKey: Guid(e3579e83b237f924997f1a3351ac9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_337.asset using Guid(e3579e83b237f924997f1a3351ac9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc8a416a80356fa5cd0e42dd821eb87') in 0.013037 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_312.asset
+  artifactKey: Guid(1ef6ea5333add434180ebea97b67a224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_312.asset using Guid(1ef6ea5333add434180ebea97b67a224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955b3a4302f7ff1044091a6773b387da') in 0.012784 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_253.asset
+  artifactKey: Guid(55de4e46f3444de488db689babd5d682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_253.asset using Guid(55de4e46f3444de488db689babd5d682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b4dcf735b27908a78742a3ff88995e') in 0.012863 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_338.asset
+  artifactKey: Guid(3bb30d6fc3c2b68468ca99d221cda377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_338.asset using Guid(3bb30d6fc3c2b68468ca99d221cda377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9efddaf5776b44ece7c08d4a0a07c4f') in 0.011722 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_372.asset
+  artifactKey: Guid(c828b40d99536084ba8ad548f00c3696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_372.asset using Guid(c828b40d99536084ba8ad548f00c3696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77198c7df522857c3e680e4406ccc07') in 0.011792 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_391.asset
+  artifactKey: Guid(6c6c74c205e0f7e49a2a8fbf6a2cc767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_391.asset using Guid(6c6c74c205e0f7e49a2a8fbf6a2cc767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c61b5724b6abfa4592538fe80b5da0e') in 0.013107 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_331.asset
+  artifactKey: Guid(f2df5f216320ed3458c47fe266ff9c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_331.asset using Guid(f2df5f216320ed3458c47fe266ff9c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786966180720ab3beada3e384b463a86') in 0.012286 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_319.asset
+  artifactKey: Guid(791ece0bd2be2d449857b8f4f04067a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_319.asset using Guid(791ece0bd2be2d449857b8f4f04067a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ade76ed2240937c7fb261521d216702') in 0.011629 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_299.asset
+  artifactKey: Guid(adb07399e0060764182fb497ba925170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_299.asset using Guid(adb07399e0060764182fb497ba925170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8891515136c2f2c2450b940999557676') in 0.012421 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_298.asset
+  artifactKey: Guid(ef433b4bbd7e78b40a5b91b22c8e7548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_298.asset using Guid(ef433b4bbd7e78b40a5b91b22c8e7548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12696500d1f33bbe61d07e3b5092a3fe') in 0.012824 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_345.asset
+  artifactKey: Guid(f23603fd43f641e458e18794752e791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_345.asset using Guid(f23603fd43f641e458e18794752e791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97461c210b25c9dbfc017bec626d4ce1') in 0.013574 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_370.asset
+  artifactKey: Guid(0f11a0ec012da8e4e89f47182475aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_370.asset using Guid(0f11a0ec012da8e4e89f47182475aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b05921c45d85553b7da97e61a30ebe8') in 0.011253 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_379.asset
+  artifactKey: Guid(cef950c88630ff447ba786670bd7aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_379.asset using Guid(cef950c88630ff447ba786670bd7aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d89a47b528d2cc2ed5a883098e8f92') in 0.011219 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_276.asset
+  artifactKey: Guid(9126f342de3699c4aaa79b4f1c4f247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_276.asset using Guid(9126f342de3699c4aaa79b4f1c4f247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f580d11113135be8648bd44207d6f80c') in 0.012781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_325.asset
+  artifactKey: Guid(5b6b3dd611b15584c9f4b7cafcade806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_325.asset using Guid(5b6b3dd611b15584c9f4b7cafcade806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb4bed96e8ec697e15aa23d79de27df') in 0.014688 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_279.asset
+  artifactKey: Guid(d6878629ded7cd346baecb8a1c593d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_279.asset using Guid(d6878629ded7cd346baecb8a1c593d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c679f48091e8f64a1ce86ac2af44d52') in 0.011759 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_252.asset
+  artifactKey: Guid(756719339baa28c49a8bb26613f9a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_252.asset using Guid(756719339baa28c49a8bb26613f9a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d1357bf1eba90dc503722260f53296') in 0.013706 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_316.asset
+  artifactKey: Guid(d59602152caf5cf448403287836ccd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_316.asset using Guid(d59602152caf5cf448403287836ccd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a3c4ab159d75d92aa21a848907e65d') in 0.012230 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_245.asset
+  artifactKey: Guid(ae035de8ec4db804b905c0a0d6eba13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_245.asset using Guid(ae035de8ec4db804b905c0a0d6eba13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2190e80e9a632c3b32b15d37f1a390') in 0.013209 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_368.asset
+  artifactKey: Guid(12acd628b3dc7af4e8e7dd3e7b10cbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_368.asset using Guid(12acd628b3dc7af4e8e7dd3e7b10cbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c27b0b58c9fb40c21f2074c23ec24e') in 0.013513 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_371.asset
+  artifactKey: Guid(091e014ebb46a034885a0789f1cf1783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_371.asset using Guid(091e014ebb46a034885a0789f1cf1783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42a9449672419e6b259c34c06677307') in 0.012057 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_330.asset
+  artifactKey: Guid(1940b8b07888e244c94273e6ec58b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_330.asset using Guid(1940b8b07888e244c94273e6ec58b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6fde6ecf08ec6499ea5b3c9a84a23f') in 0.010926 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_254.asset
+  artifactKey: Guid(50821e83803bc6a4a9cb692a2b5d6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_254.asset using Guid(50821e83803bc6a4a9cb692a2b5d6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded3429272b6502f5ade96301ed0909') in 0.014696 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_262.asset
+  artifactKey: Guid(e0679a7409ff3934da3e3946d1a20b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_262.asset using Guid(e0679a7409ff3934da3e3946d1a20b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d17f8bb707acd1093adb75ff73ee1e') in 0.012623 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_288.asset
+  artifactKey: Guid(4622ae48c3bd2ec469172e31ef202e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_288.asset using Guid(4622ae48c3bd2ec469172e31ef202e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375a507d7c822ccece2becfb9f452a58') in 0.014097 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_408.asset
+  artifactKey: Guid(c2b657d3feaf85e45be7c22956d09813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_408.asset using Guid(c2b657d3feaf85e45be7c22956d09813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece283c1ffb2d8824469a4e97f50211f') in 0.012521 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_410.asset
+  artifactKey: Guid(880ed638f0b51f040b433b3f379e349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_410.asset using Guid(880ed638f0b51f040b433b3f379e349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e31df4310eb50b539a291a36eb18fd1') in 0.014718 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_384.asset
+  artifactKey: Guid(19411ca51d80b0749a88274dec78dfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_384.asset using Guid(19411ca51d80b0749a88274dec78dfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2792eabedc3327a4e7c47ec236a14714') in 0.012979 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_364.asset
+  artifactKey: Guid(1856166623f6f94459cda21769b53865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_364.asset using Guid(1856166623f6f94459cda21769b53865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8477be92658d577e28e7944c170fb6') in 0.013996 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_401.asset
+  artifactKey: Guid(72667d4928882a94f854a654ed4ec9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_401.asset using Guid(72667d4928882a94f854a654ed4ec9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07efbb36af49e336a9e399c9d68346ff') in 0.015126 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_261.asset
+  artifactKey: Guid(dd5b805c2bcd09e4db1423b941c7912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_261.asset using Guid(dd5b805c2bcd09e4db1423b941c7912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6254f4bacb04e578258a22e2c0b2ce1') in 0.015815 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_328.asset
+  artifactKey: Guid(8497c2a089f9f2d4fa06cb61e814c48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_328.asset using Guid(8497c2a089f9f2d4fa06cb61e814c48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46496c4f3555b24d4d54ef624a9dba37') in 0.013445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_383.asset
+  artifactKey: Guid(dde2bbb59b7c48b44a949da02ecf2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_383.asset using Guid(dde2bbb59b7c48b44a949da02ecf2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd56af65323d107dbf5b0957567bb2') in 0.016391 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_290.asset
+  artifactKey: Guid(93e1868f159a674478274e34288bd3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_290.asset using Guid(93e1868f159a674478274e34288bd3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc95a0e4f594e1cb2eb3da37ca88f8d4') in 0.013735 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_392.asset
+  artifactKey: Guid(13b4bcb149952b74b95e44ca518cc04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_392.asset using Guid(13b4bcb149952b74b95e44ca518cc04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607690e73b21a56b5742c4151c2ddef1') in 0.013831 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_353.asset
+  artifactKey: Guid(84709606f4960b74283e4ace83f038ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_353.asset using Guid(84709606f4960b74283e4ace83f038ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350ea2431234b629758603ec81b53ac1') in 0.012493 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_374.asset
+  artifactKey: Guid(00374b804b1ec7c4f98676185f33c9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_374.asset using Guid(00374b804b1ec7c4f98676185f33c9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66be779c88a37ef913c7867d0d8f2ddf') in 0.012694 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_323.asset
+  artifactKey: Guid(c77661a840d0aaa4e9dda27d9e43945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_323.asset using Guid(c77661a840d0aaa4e9dda27d9e43945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86beeec54aaee99e8ee1b10276fcce9d') in 0.013291 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_271.asset
+  artifactKey: Guid(a08f04bd96c3afa43b6887a5e2e3ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_271.asset using Guid(a08f04bd96c3afa43b6887a5e2e3ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd269c28692213088b89a3273f11333b1') in 0.012032 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_356.asset
+  artifactKey: Guid(fd62c42c779d29642b22681f35cd4caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_356.asset using Guid(fd62c42c779d29642b22681f35cd4caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4240e2b3b51daf09856b56f1b3c7bea6') in 0.011645 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_308.asset
+  artifactKey: Guid(ccda2b46bff2eca4181b04ed5c63e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_308.asset using Guid(ccda2b46bff2eca4181b04ed5c63e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37529d202dd8bc03a76d3fe40812aa9') in 0.012444 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_257.asset
+  artifactKey: Guid(1178649ce6f77144d8bf237b525e82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_257.asset using Guid(1178649ce6f77144d8bf237b525e82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad94655fb9afa9827241dff9248886a3') in 0.012455 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_268.asset
+  artifactKey: Guid(a4d146510b522834aa0e6f310bc9e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_268.asset using Guid(a4d146510b522834aa0e6f310bc9e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93173318315f4895bd5d462074920a2d') in 0.011104 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_340.asset
+  artifactKey: Guid(fe9fce3016d21a945984c9336fd4f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_340.asset using Guid(fe9fce3016d21a945984c9336fd4f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8976896c8e39fee8699751ddc776869d') in 0.013605 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_297.asset
+  artifactKey: Guid(81b43a065438c9d4aa382345c2b0c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_297.asset using Guid(81b43a065438c9d4aa382345c2b0c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3440f12ec56f13317db42d721319ee') in 0.012559 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_390.asset
+  artifactKey: Guid(a63fd9092167a9c4dac519055d9da7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_390.asset using Guid(a63fd9092167a9c4dac519055d9da7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e160f346b1229d6e79cce6117b444b3') in 0.013057 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_336.asset
+  artifactKey: Guid(c327735edde13b948acb3a91857ba219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_336.asset using Guid(c327735edde13b948acb3a91857ba219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478693085a24bb4450ab6ee8380feaf0') in 0.014781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_358.asset
+  artifactKey: Guid(6b0d681d2b29e6b42b62d831cb22b555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_358.asset using Guid(6b0d681d2b29e6b42b62d831cb22b555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb0fc811f731b05f7deed5bb1a7fc90') in 0.015921 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_393.asset
+  artifactKey: Guid(a2c14df9b0a6b044fa1d3a93d3a2a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_393.asset using Guid(a2c14df9b0a6b044fa1d3a93d3a2a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bc5350fdc3cf704150f719d3addaeb') in 0.011311 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 539.306904 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_1.asset
+  artifactKey: Guid(c6021dcf78c3965438f448f16d6c2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_1.asset using Guid(c6021dcf78c3965438f448f16d6c2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6035158d0de3c47d260fc277e8d4cf22') in 0.016412 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_27.asset
+  artifactKey: Guid(021cac378fd38d2409dbd4ecde915e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_27.asset using Guid(021cac378fd38d2409dbd4ecde915e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bd1d93c3ea38c8c36fc8a8a214fd23') in 0.014521 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_37.asset
+  artifactKey: Guid(16c0364bb146d1b4983c7484fc134f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_37.asset using Guid(16c0364bb146d1b4983c7484fc134f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fcfd476303af72fe987f468215848f') in 0.016123 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_32.asset
+  artifactKey: Guid(77ee5c1f5d192fb4abb8ffaba6dfa0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_32.asset using Guid(77ee5c1f5d192fb4abb8ffaba6dfa0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbce4c158b6c3189fdf46b25a2e4ccb') in 0.018565 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_25.asset
+  artifactKey: Guid(65433c48c8f44704880d5f7eaac4f173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_25.asset using Guid(65433c48c8f44704880d5f7eaac4f173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858d51a300c814e0a1002861c81b5604') in 0.013988 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_17.asset
+  artifactKey: Guid(513aaed17da0514489f86608622b12f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_17.asset using Guid(513aaed17da0514489f86608622b12f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168e779ad5ab3346e1b2da81f3a77b16') in 0.025309 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_13.asset
+  artifactKey: Guid(6a5ef0a30678b69458856dfb98363f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_13.asset using Guid(6a5ef0a30678b69458856dfb98363f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18dc068112046836e6b6343042ec8a34') in 0.012695 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_15.asset
+  artifactKey: Guid(94d309199f9c8734eb87e246f3b8157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_15.asset using Guid(94d309199f9c8734eb87e246f3b8157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22aa09fc7565a87b28d7b2cf2b5586b') in 0.010618 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_21.asset
+  artifactKey: Guid(c615309355dc81d4881caf55edb3210a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_21.asset using Guid(c615309355dc81d4881caf55edb3210a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618e4fe160bee9d73ed3fef9f0b9b4fb') in 0.011689 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_20.asset
+  artifactKey: Guid(d02852e7f72506d4fbfeb6be4b9be861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_20.asset using Guid(d02852e7f72506d4fbfeb6be4b9be861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b58259f3e2c3362ffd212ea2b5113b2') in 0.012077 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_29.asset
+  artifactKey: Guid(cb3032daa9f881d4da64806f18fcc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_29.asset using Guid(cb3032daa9f881d4da64806f18fcc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa104f95236a3b7baa575a675fecc6f6') in 0.024939 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_6.asset
+  artifactKey: Guid(32f1bf6b730241d45bbce8c7c15d65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_6.asset using Guid(32f1bf6b730241d45bbce8c7c15d65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44abc2585e7297a791e5b99cd2886ba6') in 0.011926 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_16.asset
+  artifactKey: Guid(5bd9fbaec7e63f646a782a507fb5e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_16.asset using Guid(5bd9fbaec7e63f646a782a507fb5e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6526f304466a95247c9b85d1f5c819') in 0.009707 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_39.asset
+  artifactKey: Guid(2c811defcb60d2d448c5156cbea17ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_39.asset using Guid(2c811defcb60d2d448c5156cbea17ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62ad19a3dfb954b02f7f3dd23f8d477') in 0.011815 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_26.asset
+  artifactKey: Guid(3ac0028003d6c25449c303ff6c740807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_26.asset using Guid(3ac0028003d6c25449c303ff6c740807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e0a67502e08ec070020612950906f0') in 0.011123 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_46.asset
+  artifactKey: Guid(2828e8d32aabce74995f6a261508dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_46.asset using Guid(2828e8d32aabce74995f6a261508dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df33a1c3997592473adc8c062c25822') in 0.011007 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_38.asset
+  artifactKey: Guid(0f9c2a5665ee1b1438a5a459fc4cdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_38.asset using Guid(0f9c2a5665ee1b1438a5a459fc4cdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220281851a989bb3aefc400df42c0168') in 0.011466 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_9.asset
+  artifactKey: Guid(34c020c0e4bbd7c44a78a6abed6fc7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_9.asset using Guid(34c020c0e4bbd7c44a78a6abed6fc7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566afc61232871e5478a50157450c1f0') in 0.009853 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_2.asset
+  artifactKey: Guid(4478325c868ba5f4b961b6761b9a6f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_2.asset using Guid(4478325c868ba5f4b961b6761b9a6f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf84eea4482a4fda531a8b749a8baf60') in 0.011753 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_23.asset
+  artifactKey: Guid(19716bb98ffb9ab41904412af246751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_23.asset using Guid(19716bb98ffb9ab41904412af246751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f284408584d9a53d4db50f5de88de502') in 0.011736 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_42.asset
+  artifactKey: Guid(c1d9bb2de9772c541b72f98c9d275a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_42.asset using Guid(c1d9bb2de9772c541b72f98c9d275a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078821583c8042d582beccc3b88a8994') in 0.011641 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_10.asset
+  artifactKey: Guid(bf0c4de62317dfa40bfe08b799ba5f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_10.asset using Guid(bf0c4de62317dfa40bfe08b799ba5f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024139d18665a161999d5351b21f9ca2') in 0.012153 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_5.asset
+  artifactKey: Guid(706f1e86e100cfe409405fdc5ed8bd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_5.asset using Guid(706f1e86e100cfe409405fdc5ed8bd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b3fe9320115cf679e22b743878cf06') in 0.011871 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_19.asset
+  artifactKey: Guid(94b9fc08e8e3a644dade9b6a5e711c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1_19.asset using Guid(94b9fc08e8e3a644dade9b6a5e711c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca740e6084efa39b255cbcc85a5a779') in 0.010187 seconds 
+Number of asset objects unloaded after import = 3
